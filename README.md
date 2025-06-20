@@ -64,14 +64,14 @@ This was the most complex part. Here's what worked for me:
 
 - Add app icons and basic branding.
 - Under **App Features**, define this app as a **Bot**.
-- Paste in the Azure App ID for the bot.
+- Use the Azure App ID for the bot.
 - Scope the bot to **Personal** so it can respond 1:1.
 
 #### 🔹 Add Trusted Domains
 
 - Add domains required for communication:
   - `*.botframework.com`
-  - Your production hosting domain
+  - Your production hosting domain (if needed)
 
 #### 🔹 Validate & Publish
 
